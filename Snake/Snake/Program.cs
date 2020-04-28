@@ -33,9 +33,9 @@ namespace Snake
             numList.Add(1);
             numList.Add(2);
 
-            int x = numList[0];
+        /*  int x = numList[0];
             int y = numList[1];
-            int z = numList[2];
+            int z = numList[2]; */
 
             foreach (int i in numList)
             {
@@ -47,6 +47,10 @@ namespace Snake
             List<Point> pList = new List<Point>();
             pList.Add(p1);
             pList.Add(p2);
+            pList.Add(p3);
+            pList.Add(p4);
+
+       
 
             Console.ReadLine();
         }
